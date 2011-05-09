@@ -29,7 +29,6 @@
 package org.jzkit.search.util.QueryModel;
 
 import org.jzkit.search.util.QueryModel.Internal.InternalModelRootNode;
-import org.springframework.context.ApplicationContext;
 
 /**
  * 
@@ -38,5 +37,5 @@ import org.springframework.context.ApplicationContext;
  * @see org.jzkit.SearchProvider.iface.IRQuery
  */ 
 public interface QueryModel {
-  public InternalModelRootNode toInternalQueryModel(ApplicationContext ctx) throws InvalidQueryException;
+  public InternalModelRootNode toInternalQueryModel() throws InvalidQueryException;
 }

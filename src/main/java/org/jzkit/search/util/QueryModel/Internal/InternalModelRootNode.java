@@ -61,7 +61,7 @@ public class InternalModelRootNode extends QueryNode implements QueryModel
       return result;
     }
 
-    public InternalModelRootNode toInternalQueryModel(org.springframework.context.ApplicationContext ctx) throws InvalidQueryException {
+    public InternalModelRootNode toInternalQueryModel() throws InvalidQueryException {
       return this;
     }
 
