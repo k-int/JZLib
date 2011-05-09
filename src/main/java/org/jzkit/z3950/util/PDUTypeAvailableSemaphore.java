@@ -60,7 +60,7 @@ public class PDUTypeAvailableSemaphore extends BaseSemaphore
 
                     if ( ( e != null ) && 
                          ( e.getPDU() != null ) && 
-                         ( e.getPDU().which == sought_type ) )
+                         ( ( e.getPDU().which == sought_type ) || ( e.getPDU().which == PDU_type.close_CID ) ) )
                     {
                       the_pdu = e.getPDU();   
                       got_pdu = true;
