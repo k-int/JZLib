@@ -15,7 +15,7 @@ public class Type1QueryModel extends Z3950QueryModel {
   private static Log log = LogFactory.getLog(Type1QueryModel.class);
 
   public Type1QueryModel(RPNQuery_type query) {
-    log.info("Type1QueryModel::Type1QueryModel("+query+")");
+    // log.info("Type1QueryModel::Type1QueryModel("+query+")");
     this.query = query;
   }
 
