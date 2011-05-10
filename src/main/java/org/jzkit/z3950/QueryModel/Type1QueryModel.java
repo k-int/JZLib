@@ -21,7 +21,7 @@ public class Type1QueryModel extends Z3950QueryModel {
 
   public Query_type toASNType() {
 
-    log.info("toASNType()");
+    // log.info("toASNType()");
 
     Query_type qt = new Query_type();
     qt.which=Query_type.type_1_CID;

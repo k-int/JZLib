@@ -43,7 +43,7 @@ public class Type1QueryModelBuilder {
                                                             InternalToType1ConversionRules rules,
                                                             OIDRegister reg) throws InvalidQueryException
   {
-    log.info("RootNodeToZRPNStructure");
+    // log.info("RootNodeToZRPNStructure");
     // System.err.println("\n\nRPNHelper::RootNodeToZRPNStructure");
     RPNQuery_type result = new RPNQuery_type();
 
