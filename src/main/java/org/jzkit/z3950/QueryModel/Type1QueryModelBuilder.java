@@ -19,8 +19,8 @@ import org.apache.commons.logging.LogFactory;
  * @author:     Ian Ibbotson ( ian.ibbotson@k-int.com )
  *
  */
-public class Type1QueryModelBuilder
-{
+public class Type1QueryModelBuilder {
+
   private static transient Log log = LogFactory.getLog(Type1QueryModelBuilder.class);
 
   // public static Z3950QueryModel buildFrom(ApplicationContext ctx, QueryModel qm, String encoding) throws InvalidQueryException {
@@ -34,8 +34,6 @@ public class Type1QueryModelBuilder
     // Generic internal representation to type 1 here
     // OIDRegister reg = (OIDRegister) ctx.getBean("OIDRegister");
     // InternalToType1ConversionRules rules = (InternalToType1ConversionRules) ctx.getBean("InternalToType1ConversionRules");
-    OIDRegister reg = null;
-    InternalToType1ConversionRules rules = null;
     return new Type1QueryModel(RootNodeToZRPNStructure(qm.toInternalQueryModel(), encoding, rules, reg));
   }
 
