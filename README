@@ -1,2 +1,2 @@
 
-This is ki-zlib a pure java z3950 endpoint library supporting both origina and target. This package provides low level codecs and protocol endpoints, but no rich client capabilities.
+This is ki-zlib a pure java z3950 endpoint library supporting both origin and target. This package provides low level codecs and protocol endpoints, but no rich client capabilities.
