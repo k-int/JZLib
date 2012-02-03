@@ -1,0 +1,9 @@
+A simple project to query copac for a specific ISBN and ask for an XML record in the search response.
+
+Dumps the xml record out to the console
+
+Build the executable jar file with "mvn package"
+
+run with "java -jar target/copac-1.0-SNAPSHOT.one-jar.jar"
+
+(Should work, if not "java -jar target/copac-1.0-SNAPSHOT.one-jar.jar com.k_int.sample.CopacClient")
