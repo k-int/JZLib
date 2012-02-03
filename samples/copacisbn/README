@@ -1,0 +1,23 @@
+A simple project to query copac for a specific ISBN and ask for an XML record in the search response.
+
+Dumps the xml record out to the console
+
+Build the executable jar file with "mvn package"
+
+run with "java -jar target/copac-1.0-SNAPSHOT.one-jar.jar"
+
+(Should work, if not "java -jar target/copac-1.0-SNAPSHOT.one-jar.jar com.k_int.sample.CopacClient")
+
+
+
+Important stuff to note:
+
+* It's hacked together from some other code, it aint pretty!
+
+* It uses the maven2 onejar plugin to build a single executable jar file and make life easy, but you should probably do proper dependency management if using it in a live project
+
+* Thare are a couple of .property files in the src/main/resources directory that are critical to everything working (Maps oids to human readable names etc) If you do your own build, make sure they get into the classpath
+
+* I've commented out the code for dumping marc and grs records... I'm too old and lifes too short to be doing this in java any more.. Groovy is your friend ;)
+
+Please feel free to send comments / feedback / requests!
