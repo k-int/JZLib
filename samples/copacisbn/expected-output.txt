@@ -1,0 +1,325 @@
+Client connects to copac and sends a query for isbn 0713902191 - Brain of the Firm by Stafford Beer
+
+@attrset bib-1 @attr 1=7 "0713902191"
+
+
+Response should be something like
+
+---
+Warnings from onejar that can be safely ignored
+---
+
+Connect
+Create listener & encoder
+Incoming InitResponse
+completed
+Target supports named result sets
+Search response OK. result count : 1
+Done present request
+Response contains 1 Response Records
+[copac] XML <mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:h="http://copac.ac.uk/schemas/holdings/v1" xmlns:cpc="http://copac.ac.uk/schemas/mods-copac/v1" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd http://copac.ac.uk/schemas/mods-copac/v1 http://copac.ac.uk/schemas/mods-copac/v1/mods-copac-v1.xsd http://copac.ac.uk/schemas/holdings/v1 http://copac.ac.uk/schemas/holdings/v1/holdings-v1.xsd">
+ <recordInfo>
+  <recordIdentifier source="copac">01201118</recordIdentifier>
+  <recordContentSource>Copac</recordContentSource>
+  <recordCreationDate>20111105</recordCreationDate>
+ </recordInfo>
+ <typeOfResource>text</typeOfResource>
+ <originInfo>
+  <dateIssued encoding="marc">1972</dateIssued>
+ </originInfo>
+ <originInfo>
+  <place>
+   <placeTerm type="text">[London] :</placeTerm>
+  </place>
+  <publisher>Allen Lane the Penguin Press,</publisher>
+  <dateIssued>[1972]</dateIssued>
+ </originInfo>
+ <titleInfo>
+  <title>Brain of the firm</title>
+  <subTitle>the managerial cybernetics of organization.</subTitle>
+ </titleInfo>
+ <name type="personal">
+  <namePart>Beer, Stafford.</namePart>
+  <role>
+   <roleTerm type="text">creator</roleTerm>
+  </role>
+ </name>
+ <subject authority="lcsh">
+  <topic>Industrial management.</topic>
+ </subject>
+ <subject authority="lcsh">
+  <topic>Cybernetics</topic>
+ </subject>
+ <subject>
+  <topic>Management</topic>
+  <topic>Cybernetics aspects</topic>
+ </subject>
+ <language>
+  <languageTerm type="text">English</languageTerm>
+ </language>
+ <note>Bibliographyp.308-314. - Includes index.</note>
+ <note>Bibliography: p. 308-[314].</note>
+ <physicalDescription>
+  <extent>319 p. : illus ; 23 cm.</extent>
+ </physicalDescription>
+ <identifier type="lccn">   72183127</identifier>
+ <identifier type="isbn">0713902191</identifier>
+ <identifier type="bnb">GB7208499</identifier>
+ <genre authority="marcgt">Bibliography</genre>
+ <classification authority="lcc">HD38 .B363</classification>
+ <classification authority="ddc">658.4</classification>
+ <classification authority="ddc">658.4</classification>
+ <extension>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Cambridge">Cam</h:org>
+   <h:objId>01201118</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="University Library, Order in Reading Room">cammain 4f9100+cx</h:loc>
+     <h:shelfmark>9420.c.3454</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Cambridge">Cam</h:org>
+   <h:objId>01202175</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="University Library, South Front, Floor 6">cammain 3fSF6</h:loc>
+     <h:shelfmark>425.c.97.266</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Edinburgh">Edi</h:org>
+   <h:objId>02262452</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Main Library (STANDARD LOAN)">MAIN-GEN</h:loc>
+     <h:shelfmark>.006:.658 Bee.</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Glasgow">Gla</h:org>
+   <h:objId>03B11361839</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Main Library, Level 6">gul06</h:loc>
+     <h:shelfmark>Economics C310 BEE</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Leeds">Lee</h:org>
+   <h:objId>04B10444956</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="In Store">stcha</h:loc>
+     <h:shelfmark>Store Management F-10 BEE</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Manchester">Man</h:org>
+   <h:objId>0636824</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc>The Eddie Davies Library (postgraduate)</h:loc>
+     <h:shelfmark>658.403    BEE</h:shelfmark>
+     <h:copyNote>MBS Normal</h:copyNote>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Oxford">Oxf</h:org>
+   <h:objId>0710151706</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Bodleian Library, Nuneham Repository">Bodleian BOD Nuneham</h:loc>
+     <h:shelfmark>232711 d.872</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Trinity College Dublin">TCD</h:org>
+   <h:objId>08B105145968</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Contact Trinity College Library">lyoa </h:loc>
+     <h:shelfmark>658.4 L21;1</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Contact Trinity College Library">sshl </h:loc>
+     <h:shelfmark>HL- 39-323</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="UCL (University College London)">UCL</h:org>
+   <h:objId>10000137970</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Store">STORE</h:loc>
+     <h:shelfmark>STORE 06-0213</h:shelfmark>
+     <h:copyNote>Standard</h:copyNote>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="London School of Economics">LSE</h:org>
+   <h:objId>1178183</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Main Collection - Normal Loan">MAIN_NORM</h:loc>
+     <h:shelfmark>HD38 B41</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Sheffield">She</h:org>
+   <h:objId>14284445</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Contact St George's Library">Portobello</h:loc>
+     <h:shelfmark>SGL STORE 658.4 (B)  </h:shelfmark>
+     <h:copyNote>Standard loan</h:copyNote>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Warwick">War</h:org>
+   <h:objId>15B11473447</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Contact University of Warwick Main Library">restr</h:loc>
+     <h:shelfmark>HN 5000.B3</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Liverpool">Liv</h:org>
+   <h:objId>19B11232225</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Sydney Jones Library">sj</h:loc>
+     <h:shelfmark>Q310.B41</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="Bristol">Bri</h:org>
+   <h:objId>27000158118</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Store">90</h:loc>
+     <h:shelfmark>Store 304272</h:shelfmark>
+     <h:copyNote>BOOK</h:copyNote>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="National Library of Scotland">NLS</h:org>
+   <h:objId>701338695</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="General Reading Room (George IV Bridge); stored offsite">0NG</h:loc>
+     <h:shelfmark>NG.1292.e.37 ; Reference use in NLS</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="National Library of Wales / Llyfrgell Genedlaethol Cymru">NLW</h:org>
+   <h:objId>71LLGCB10011783</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="LLP/DPB STORFA/STACK">LLGC LLP/DPB STORFA/STACK</h:loc>
+     <h:shelfmark>HD 31 B41</h:shelfmark>
+     <h:copyNote>Reference only</h:copyNote>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="British Library">BLI</h:org>
+   <h:objId>72000250107</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Humanities and Social Sciences, St Pancras Reading Rooms">HMNTS</h:loc>
+     <h:shelfmark>X.520/4773.</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:holds>
+    <h:item displayLabel="[Another copy.]">
+     <h:loc displayName="Humanities and Social Sciences, St Pancras Reading Rooms">HMNTS</h:loc>
+     <h:shelfmark>X.629/4306.</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="British Library">BLI</h:org>
+   <h:objId>72010324298</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="Document Supply Services">DSC</h:loc>
+     <h:shelfmark>72/0050</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+  <h:localHolds>
+   <h:org type="CURL" displayName="York">Yrk</h:org>
+   <h:objId>83000040583</h:objId>
+   <h:holds>
+    <h:item>
+     <h:loc displayName="J.B. Morrell Library, External Storage">EXTST</h:loc>
+     <h:shelfmark>G 5.8 BEE</h:shelfmark>
+    </h:item>
+   </h:holds>
+   <h:localNote>
+   </h:localNote>
+  </h:localHolds>
+ </extension>
+</mods>
+
+Closing existing listener
+[INFO] ZEndpoint - -SocketException
+[INFO] ZEndpoint - -java.net.SocketException: Socket closed - hostname=z3950.copac.ac.uk
+ibbo@levvy:~/dev/JZLib/samples/copacisbn$ 
+
