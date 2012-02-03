@@ -90,4 +90,10 @@
         </pluginRepository>
     </pluginRepositories>
 
+    <repositories>
+      <repository>
+        <id>K-Int Releases</id>
+        <url>http://projects.k-int.com:8081/nexus-webapp-1.4.0/content/repositories/public</url>
+      </repository>
+    </repositories>
 </project>
