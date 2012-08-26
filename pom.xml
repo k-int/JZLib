@@ -72,7 +72,11 @@
   <repositories>
     <repository>
       <id>K-Int Releases</id>
-      <url>http://projects.k-int.com:8081/nexus-webapp-1.4.0/content/repositories/public</url>
+      <url>http://projects.k-int.com/nexus-webapp-1.4.0/content/repositories/public</url>
+    </repository>
+    <repository>
+      <id>K-Int repo</id>
+      <url>http://developer.k-int.com/maven2/</url>
     </repository>
   </repositories>
 
